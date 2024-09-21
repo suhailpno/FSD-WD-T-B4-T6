@@ -1,0 +1,19 @@
+/* Global dark mode styles */
+body.dark {
+  background-color: #1a202c; /* Dark background */
+  color: #f7fafc; /* Light text color */
+}
+
+body.dark a {
+  color: #f7fafc; /* Light link color */
+}
+
+/* Ensure specific components like modals or inputs handle dark mode */
+.modal.dark {
+  background-color: #2d3748; /* Dark modal background */
+}
+
+input.dark {
+  background-color: #2d3748; /* Dark input field background */
+  color: #f7fafc; /* Light text color for input */
+}
